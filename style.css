@@ -82,7 +82,7 @@ Begining of Body
 
 .body{
   text-align: center;
-  padding: 7em 8em 6.2em 8em;
+  padding: 8.7em 8em 4.0em 8em;
 }
 
 .boxShadow {
@@ -96,7 +96,7 @@ Begining of Body
 .boxInput{
   border: none;
   display: flex;
-  margin-bottom: 15px;
+  margin: 15px;
 }
 
 #searchBox{
@@ -162,7 +162,7 @@ Footer Section
 
 .footer-text{
   color: gray;
-  margin: 12px 20px 12px 20px;
+  margin: 9px 20px 9px 20px;
 }
 
 .first-footer {
