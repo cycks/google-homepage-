@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Google Homepage">
-    <meta name="keywords" content="HTML,CSS,Google,Homepage">
-    <meta name="author" content="sikolia Wycliffe">
-    <link rel="tab icon" href="https://www.google.ca/favicon.ico">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Google</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Google Homepage">
+        <meta name="keywords" content="HTML,CSS,Google,Homepage">
+        <meta name="author" content="sikolia Wycliffe">
+        <link rel="tab icon" href="https://www.google.ca/favicon.ico">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Google</title>
+    </head>
 
-<body>
-    <div class="container">
-        <header>
-            <div class="header">
-                <a href="#" class="header-text">Gmail</a>
-                <a href="#" class="header-text">Images</a>
-                <a href="#" class="header-image">
-                    <i class="material-icons">apps</i>
-                </a>
-                <a href="#" class="header-image">
-                    <img src="https://img.icons8.com/material-rounded/30/000000/appointment-reminders.png">
-                </a>
-                <a href="#" class="header-image">
-                    <img id="mypic"
-                        src="https://avatars2.githubusercontent.com/u/20842393?s=400&v=4">
-                </a>
+    <body>
+        <div class="container">
+            <header>
+                <div class="header">
+                    <a href="#" class="header-text">Gmail</a>
+                    <a href="#" class="header-text">Images</a>
+                    <a href="#" class="header-image">
+                        <i class="material-icons">apps</i>
+                    </a>
+                    <a href="#" class="header-image">
+                        <img src="https://img.icons8.com/material-rounded/30/000000/appointment-reminders.png">
+                    </a>
+                    <a href="#" class="header-image">
+                        <img id="mypic"
+                            src="https://avatars2.githubusercontent.com/u/20842393?s=400&v=4">
+                    </a>
+                </div>
+            </header>
+            <div class="body">
+                <div class ="myLogo">
+                    <img alt="Google" id="mainLogo"
+                        src="https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+                </div>
+                <form>
+                    <div class="boxInput boxShadow moveLeft">
+                        <input type="text" id = "searchBox" >
+                        <input type="image" id="microphoneIcon"
+                            src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" value="Google Search">
+                        <input type="submit" value="I'm Feeling Lucky">
+                    </div>
+                    <p>
+                        Google offered in: <a href="#" id="swahili">Kiswahili</a>
+                    </p>
+                </form>
             </div>
-        </header>
-        
-</body>
-
+        </div>
+    </body>
 </html>
