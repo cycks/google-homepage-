@@ -142,6 +142,7 @@ Begining of buttons
 
 .myButton:hover {
   border: 1px solid lightgray;
+  font-weight: bold;
 }
 
 /*****************************************************
