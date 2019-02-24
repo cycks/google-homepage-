@@ -1,7 +1,8 @@
-* {
+body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
 }
 
 a, p{
@@ -17,18 +18,23 @@ header, footer {
     height: 60px;
 }
 
+/********************************************
+Begining of header
+
+**********************************************/
+
 .header {
     overflow: hidden;
-    background-color: #fff;
-    margin-left: 1050px;
+    margin-left: 1040px;
 }
 
 .header-text{
-    padding: 16px 7px;
+    padding: 16px 5px;
+    color: gray;
 }
 
 .header-image{
-    padding: 10px 7px;
+    padding: 10px 5px;
 }
 
 .header a{
@@ -39,11 +45,35 @@ header, footer {
   font-size: 13px;
 }
 
-#mypic {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
+#apps {
+    width: 30px;
+    height: 30px;
+    color: gray;
 }
+
+#mypic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+#notification {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    padding: 3px 3px;
+    margin: 8px 7px 0px 7px;
+    background-color: gray;
+    filter:invert(100%)
+}
+#myNotification{
+  width: 20px;
+}
+/*********************************************
+
+Begiing of Body
+**********************************************/
 
 .body{
   text-align: center;
@@ -75,10 +105,32 @@ input#searchBox:focus {
     outline-width: 0;
 }
 .moveLeft{
-  margin-left: 16em;
+  margin-left: 14.5em;
   width: 35em;
 }
 #microphoneIcon{
   width: 22px;
   height: 24px;
+}
+
+/******************************************
+
+Begining of buttons
+********************************************/
+.buttons{
+  margin: 2em;
+}
+.myButton{
+  width:10em;
+  height: 3em;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  background-color: #f3f3f3;
+  margin: 0px 0px 0px 10px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.myButton:hover {
+  border: 1px solid lightgray;
 }
